@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+   <title>The University</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="/img/graduation-cap-clip-art-46.png" alt="bomma"></a>
+            <div class="navlinks" id="navlinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
+
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+
+        </nav>
+        <div class="textbox">
+            <h1>World's Biggest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ea velit, accusamus dolorem eius magni
+                amet. Non velit deserunt nemo aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+                cumque.</p>
+            <a href="">Visit Us To Know More</a>
+        </div>
+    </section>
+
+<section class="course">
+    <h1>Couses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, cupiditate! Lorem ipsum dolor sit amet.</p>
+    <div class="row">
+        <div class="coursecol">
+            <h3>Intermidiate</h3>
+            <hr style="color: gray;opacity: 20%;">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda architecto cum harum distinctio voluptate velit iusto voluptas enim quod. Placeat, repellat rerum similique laudantium error voluptates commodi aliquid voluptatem hic amet culpa repellendus unde id ullam maxime quod ab. Aliquid placeat dignissimos voluptatibus nesciunt?</p>
+        </div>
+        <div class="coursecol">
+            <h3>Last Stage</h3>
+            <hr style="color: gray;opacity: 20%;">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda architecto cum harum distinctio voluptate velit iusto voluptas enim quod. Placeat, repellat rerum similique laudantium error voluptates commodi aliquid voluptatem hic amet culpa repellendus unde id ullam maxime quod ab. Aliquid placeat dignissimos voluptatibus nesciunt?</p>
+        </div>
+        <div class="coursecol">
+            <h3>Final Stage</h3>
+            <hr style="color: gray;opacity: 20%;">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda architecto cum harum distinctio voluptate velit iusto voluptas enim quod. Placeat, repellat rerum similique laudantium error voluptates commodi aliquid voluptatem hic amet culpa repellendus unde id ullam maxime quod ab. Aliquid placeat dignissimos voluptatibus nesciunt?</p>
+        </div>
+    </div>
+    
+</section>
+<section class="campus">
+    
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, cupiditate! Lorem ipsum dolor sit amet.</p>
+    <div class="row campusrow">
+        <div class="campuscol">
+        <img src="/img/buliding1.jpg" alt="" >
+        <div class="layer">
+            <h3>LONDON</h3>
+        </div>
+    </div>
+        <div class="campuscol">
+        <img src="/img/building2.jpg" alt="" >
+        <div class="layer">
+            <h3>SINGAPORE</h3>
+        </div>
+    </div>
+        <div class="campuscol">
+        <img src="/img/building3.jpg" alt="" >
+        <div class="layer">
+            <h3>INDIA</h3>
+        </div>
+    </div>
+    </div>
+</section>
+    
+    
+
+    
+    
+    <script>
+        var navlinks = document.getElementById("navlinks")
+
+        function showmenu(){
+            navlinks.style.right="0";
+            navlinks.style.transitionDuration="0.5s";
+        }
+        function hidemenu(){
+            navlinks.style.right="-2000px";
+            navlinks.style.transitionDuration="0.9s";
+        }
+    </script>
+</body>
+
+</html>
